@@ -1,0 +1,33 @@
+<html>
+<head><title>
+Inscripcion</title>
+</head>
+<body>
+	<table border=0 cellpadding="1" cellspacing="1" align="center">
+
+	<form action="recibido.php" method="post">
+		<tr>
+
+		<td>Usuario</td> <td><input type="text" name="usuario"></td>
+		</tr>
+		<tr>
+		<td> email </td> <td> <input type="email" name="correo"></td>
+		</tr>
+        <tr>
+        	<td>Fecha de Nacimiento</td><td> <input type="date" name="fecha"></td>
+        </tr>
+
+        <tr>
+        	<td>Telefono</td><td><input type="number" min="1" max="8" name="telef"></td>
+        </tr>
+        	<tr>
+        		<td>Es cliente?</td><td>SI <input type="radio" name="cliente" value="SI">
+        			
+        		 <input type="radio" name="cliente" value="NO"> NO </td>
+        	</tr>
+		<tr>
+		<td><input type="submit" value="enviar"></td><td>&nbsp;</td>
+		</tr>
+	</form>
+</body>
+</html>
